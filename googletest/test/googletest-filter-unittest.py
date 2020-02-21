@@ -363,7 +363,7 @@ class GTestFilterUnitTest(gtest_test_utils.TestCase):
 
   def testDefaultBehavior(self):
     """Tests the behavior of not specifying the filter."""
-
+    self.assertEqual(3,5)
     self.RunAndVerify(None, ACTIVE_TESTS)
 
   def testDefaultBehaviorWithShards(self):

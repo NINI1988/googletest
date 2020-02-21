@@ -620,6 +620,7 @@ class GTestJsonOutputUnitTest(gtest_test_utils.TestCase):
       self._TestJsonOutput(GTEST_PROGRAM_NAME, EXPECTED_NON_EMPTY, 1)
 
   def testEmptyJsonOutput(self):
+        self.assertTrue(False)
     """Verifies JSON output for a Google Test binary without actual tests.
 
     Runs a test program that generates an empty JSON output, and
